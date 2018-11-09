@@ -1,0 +1,21 @@
+{
+  "name": "opencensus-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@opencensus/exporter-jaeger": "0.0.6",
+    "@opencensus/exporter-ocagent": "0.0.6",
+    "@opencensus/nodejs": "0.0.6",
+    "@opencensus/propagation-tracecontext": "0.0.6",
+    "@types/request": "^2.48.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
